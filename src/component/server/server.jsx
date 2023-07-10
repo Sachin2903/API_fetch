@@ -9,7 +9,7 @@ export default function Api() {
       try {
         const response = await fetch('https://api.coincap.io/v2/assets/bitcoin/markets');
         const jsonData = await response.json();
-        jsonData.data.sort((a,b)=>a.volumeUsd24Hr-b.volumeUsd24Hr)
+        jsonData.data.sort((a,b)=>b.volumeUsd24Hr-a.volumeUsd24Hr)
         setCoins(jsonData.data);
         
       } catch (error) {
