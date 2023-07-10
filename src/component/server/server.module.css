@@ -1,0 +1,13 @@
+.Api{
+border: 1rem solid black;
+display: flex;
+flex-direction: column;
+}
+
+.list{
+    display: flex;
+}
+
+.coins{
+    display: flex;
+}
