@@ -1,5 +1,5 @@
-# CryptoCOINS tracker
-# by Upasana Chakraborty
+# CryptoCOINS 
+
 # Deploy link : https://cryptocoins-ten.vercel.app/
 
 # Getting Started with Create React App
